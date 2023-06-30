@@ -1,0 +1,19 @@
+@import "./index.scss";
+
+* {
+    margin: 0;
+    color: $text-primary;
+}
+
+body {
+    background-color: $background-primary;
+}
+
+a {
+    color: $text-primary;
+
+    &:hover {
+        color: $primary;
+    }
+
+}
